@@ -3,7 +3,7 @@ body{
     flex-direction: column;
     background-color: #a6f6af;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, sans-serif;
     min-height: 100vh;
     margin: 0;
 }
@@ -12,7 +12,6 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
     flex-grow: 1;
 }
 
@@ -21,25 +20,13 @@ body{
     height: auto;
 }
 
-
 #availableonbtns {
-    align-items: center;
-    text-align: center;
+    flex-direction: column;
     padding-left: 100px;
-}
-
-#storealign {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-right: 30px;
-
 }
 
 .availableon {
     margin-top: 20px;
-    margin-left: 10px;
-    display: block;
     flex-direction: column;
     align-items: right;
     width: 200px;
@@ -48,9 +35,11 @@ body{
 }
 
 #logueaqui {
-    display: inline-block;
-
-    background-color:#2c171c;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    width: 200px;
+    height: 65px;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -59,19 +48,6 @@ body{
     border: none;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif
-}
-
-
-
-#logueaqui {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #000000;
-    border-radius: 5px;
-    width: 200px;
-    height: 65px;
-    
 }
 
 #footerLoginPage {
