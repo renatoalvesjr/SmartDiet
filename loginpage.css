@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #a6f6af;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#cellimage {
+    width: 100x;
+    height: auto;
+}
+
+
+#availableonbtns {
+    align-items: center;
+    text-align: center;
+    padding-left: 100px;
+}
+
+#storealign {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 30px;
+
+}
+
+.availableon {
+    margin-top: 20px;
+    margin-left: 10px;
+    display: block;
+    flex-direction: column;
+    align-items: right;
+    width: 200px;
+    height: 65px;
+    
+}
+
+#logueaqui {
+    display: inline-block;
+
+    background-color:#2c171c;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+
+#logueaqui {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 5px;
+    width: 200px;
+    height: 65px;
+    
+}
+
+#footerLoginPage {
+    background-color: #2c171c;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    flex-shrink: 0; 
+    width: 100%;
+}
