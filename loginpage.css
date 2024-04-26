@@ -4,6 +4,7 @@ body{
     background-color: #a6f6af;
     align-items: center;
     font-family: Roboto, sans-serif;
+    font-weight: 500;
     min-height: 100vh;
     margin: 0;
 }
