@@ -97,7 +97,7 @@ header{
     height: 50px;
     width: 100%;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .user-score-info{
@@ -137,7 +137,7 @@ header{
     text-align: center;
     height: 15px;
     padding: 5px;
-    font-size: 20px;
+    font-size: 15px;
 }
 .progress-title p{
     margin: 0;
@@ -156,7 +156,7 @@ header{
 .weekly-overview{
     margin-top: 50px;
     padding: 5px;
-    height: 200px;
+    height: 180px;
     width: 450px;
     background-color: #ECE5D8;
     border-radius: 10px;
@@ -165,10 +165,79 @@ header{
     box-shadow: 0 2px 2px 0 black ;
 }
 
-.weekly-overview-title{
+.weekly-title{
     display: block;
     text-align: center;
     height: 15px;
     padding: 5px;
-    font-size: 20px;
+    font-size: 15px;
+}
+.weekly-title p{
+    margin: 0;
+    padding: 0;
+}
+.weekly-objectives{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin:10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.objective-box{
+    padding: 5px;
+    height: 100px;
+    width: 120px;
+    background-color: #ECE5D8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 2px 2px 0 black ;
+}
+
+.objective-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.objective-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: lightgray;
+    box-shadow: 0 1px 1px 0 black ;
+}
+.objective-time{
+    display: block;
+    text-align: center;
+    height: 15px;
+    padding: 5px;
+    font-size: 10px;
+}
+.objective-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+.dot-complete{
+    background-color: green;
+}
+
+.objective-botton{
+    display: flex;
+    flex-direction: row;
+    text-align: bottom;
 }
