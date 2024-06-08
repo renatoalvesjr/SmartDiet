@@ -51,11 +51,66 @@ body{
     font-family: Arial, Helvetica, sans-serif
 }
 
+#ourLogo {
+    font-family: 'Pacifico';
+    font-size: 30px;
+}
+
 #footerLoginPage {
     background-color: #2c171c;
-    padding: 10px;
-    text-align: center;
     color: #fff;
     flex-shrink: 0; 
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#smartDietText {
+    margin-bottom: 5px; 
+    margin-left: -10px; 
+}
+
+#iconsContainer {
+    display: flex;
+    align-items: center; 
+    margin-top: -5px; 
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    margin-right: 5px; 
+}
+
+.footer-column {
+    display: flex;
+    padding-left: 20%;
+}
+
+.footer-column > div {
+    margin-right:  90px; 
+}
+
+#footerLoginPage h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#footerLoginPage ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#footerLoginPage ul li {
+    margin-bottom: 5px;
+}
+
+#footerLoginPage ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footerLoginPage ul li a:hover {
+    text-decoration: underline;
 }

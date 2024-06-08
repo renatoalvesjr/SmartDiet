@@ -1,0 +1,174 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #a6f6af;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 0;
+    padding: 0;
+    margin-left: 200px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+#iconMenu {
+    padding-left: 5px;
+    color: white;
+}
+#logo {
+    font-family: 'Pacifico';
+    font-size: 30px;
+    color: #ff4242;
+    padding-left: 10%;
+    text-decoration: none;
+}
+#logo a{
+    text-decoration: none;
+    color:#ff4242;
+}
+
+.sidenavbar {
+    top: 0;
+    left: 0;
+    width: 200px;
+    background-color: #ECE5D8;
+    position: absolute;
+    height: 100%;
+    overflow-y: visible;
+}
+.sidenavbar a {
+    display: block;
+    color: #000;
+    padding: 16px;
+    text-decoration: none;
+}
+.sidenavbar a:hover {
+    background-color: #fbbaa4;
+    color: black;
+    font-weight: 600;
+}
+
+
+.principal {
+    display: flex;
+    padding: 1px 16px;
+    margin-top: 20px;
+    flex-grow: 1;
+    margin-left: 200px;
+    flex-direction: column;
+}
+
+.user-overview {
+    padding: 5px;
+    height: 120px;
+    width: 450px;
+    background-color: #ECE5D8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 2px 0 black ;
+
+}
+.user-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.user-photo{
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: lightgray;
+    border: 1px black solid;
+    box-shadow: 0 2px 2px 0 black ;
+}
+.user-name{
+    margin-left: 10px;
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.user-score-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin:5px;
+    margin-bottom: 5px;
+}
+
+.user-score{
+    padding: 5px;
+    font-size: 20px;
+}
+.user-rank{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress-overview{
+    margin-top: 50px;
+    padding: 5px;
+    height: 200px;
+    width: 450px;
+    background-color: #ECE5D8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 2px 0 black ;
+}
+
+.progress-title{
+    display: block;
+    text-align: center;
+    height: 15px;
+    padding: 5px;
+    font-size: 20px;
+}
+.progress-title p{
+    margin: 0;
+    padding: 0;
+}
+.progress-percentage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin:5px;
+    text-align: center;
+}
+
+.weekly-overview{
+    margin-top: 50px;
+    padding: 5px;
+    height: 200px;
+    width: 450px;
+    background-color: #ECE5D8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 2px 0 black ;
+}
+
+.weekly-overview-title{
+    display: block;
+    text-align: center;
+    height: 15px;
+    padding: 5px;
+    font-size: 20px;
+}
